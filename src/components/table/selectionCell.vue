@@ -1,7 +1,6 @@
 <template>
   <td class="selectionCell-wrap">
     <div>
-        <!-- v-bind="$attrs" -->
       <checkbox
        :value="$attrs.value"
         @on-change="change"
@@ -11,6 +10,7 @@
 </template>
 
 <script>
+
 import checkbox from '@/components/checkbox/checkbox.vue'
 
 export default {

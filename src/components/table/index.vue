@@ -99,11 +99,9 @@ export default {
         this.list.splice(0, 1, item)
       }
 
-
     },
     checkAllStatus() {
       this.checkedAll = this.list.every((e) => { return e.checked})
-
     }
   }
 }
