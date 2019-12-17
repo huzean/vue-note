@@ -1,34 +1,15 @@
-# vue-note
+## 前言
 
-## Project setup
-```
-npm install
-```
+ 此项目作为自己对vue框架知识点的整理与实际运用，对一些Vue-UI组件库中的部分复杂组件进行提炼学习，后续会添加一些复杂组件的实现思路笔记
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 组件列表
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- table组件
+- page组件
+ 分页组件，参考iview的分页组件实现
+- select组件
+- checkbox组件
 
-### Run your tests
-```
-npm run test
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<!-- [table组件与分页组件](https://huqc2513.github.io/component/#/tab)、 -->
+ 
