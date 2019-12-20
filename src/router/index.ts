@@ -15,13 +15,17 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Table.vue'),
   },
   {
-    path: '*',
-    redirect: '/table',
+    path: '/swiper',
+    name: 'swiper',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Swiper.vue'),
   },
+  // {
+  //   path: '*',
+  //   redirect: '/table',
+  // },
 ];
 
 const router = new VueRouter({
-  mode: 'history',
   base: process.env.BASE_URL,
   routes,
 });

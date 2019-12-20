@@ -1,4 +1,6 @@
+let isDev = process.env.mode === 'dev';
+
 module.exports = {
   lintOnSave: false,
-  publicPath:'/vue-components/'
-}
+  publicPath: isDev ? './' : '/vue-components/',
+};
